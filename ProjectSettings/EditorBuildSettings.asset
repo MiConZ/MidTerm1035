@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Map1.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/ChooseMap.unity
+    guid: ebbc4ce71173e5640825fd94dcdfb525
+  - enabled: 1
+    path: Assets/Scenes/EnemyTree.unity
+    guid: 45825a68faa62da4a8fd9d48bc134243
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5f1e4acd86351ab419f0f8d39606ef59
+  - enabled: 1
+    path: Assets/Scenes/Mode.unity
+    guid: c203c1c0a8394d24583737b2cc8fc5a3
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: c1225e78493fad2458e1c797743914b4
+  - enabled: 1
+    path: Assets/Scenes/SkillTree.unity
+    guid: ec415ced97e2a034eb2028ece3ace018
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

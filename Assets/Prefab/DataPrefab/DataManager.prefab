@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7231735939801954969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 990426567294185535}
+  - component: {fileID: 2394654062339810658}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &990426567294185535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231735939801954969}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 914.52783, y: 570.3471, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2394654062339810658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231735939801954969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afe80b8ef9dc014d82c1b7032f27f3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameDataManager
+  allSkills:
+  - {fileID: 11400000, guid: 929e61c2fb26d0249ab1399ed58ba8f5, type: 2}
+  - {fileID: 11400000, guid: e76ce48c31e20584d9f985fbdd0db0ac, type: 2}
+  - {fileID: 11400000, guid: d139c974944f02b43af43a4b5bfca366, type: 2}
+  - {fileID: 11400000, guid: d9d65f1e473e7df4d848bde36c83418c, type: 2}
+  - {fileID: 11400000, guid: e77cff83958182841b2d77eeb38106c9, type: 2}
+  - {fileID: 11400000, guid: dabb884df89f34749aae98984e1b78ae, type: 2}
+  - {fileID: 11400000, guid: 6483c28e90c827446a8b3b4d9be2e972, type: 2}
+  - {fileID: 11400000, guid: 5521e77f64cfd5c4dba5383390446706, type: 2}
+  - {fileID: 11400000, guid: 1cea1c4360c342240b4199b84d7a1027, type: 2}
+  allEnemySkills:
+  - {fileID: 11400000, guid: 27b42cdba8c876d4dbc9f5529596c486, type: 2}
+  - {fileID: 11400000, guid: e9ab49e16e3f6f04986e8cf51a60cb50, type: 2}
+  - {fileID: 11400000, guid: 41acb36fd36c5b64e9e32fcd818b3c05, type: 2}
+  - {fileID: 11400000, guid: 7b92e3d8fb4b8684e8febc823afd5350, type: 2}
+  - {fileID: 11400000, guid: e8252f191e21cdb41a4c942916942126, type: 2}
+  - {fileID: 11400000, guid: 02cd2c9f403e25a4a823a70084af82e2, type: 2}
+  - {fileID: 11400000, guid: d1c2ae4676c138649a86c07cf68c2749, type: 2}
