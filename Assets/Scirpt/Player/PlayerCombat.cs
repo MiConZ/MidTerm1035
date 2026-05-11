@@ -77,7 +77,13 @@ public class PlayerCombat : MonoBehaviour
             }
             else
             {
+                SpriteRenderer sr = slashEffectPrefab.GetComponentInChildren<SpriteRenderer>();
 
+                if (sr != null)
+                {
+
+                    sr.color = new Color(0f, 0f, 1f);
+                }
                 if (cooldownTextFireslash.gameObject.activeSelf)
                 {
                     cooldownTextFireslash.gameObject.SetActive(false);
@@ -94,8 +100,14 @@ public class PlayerCombat : MonoBehaviour
             skillEndTime = Time.time + skillDuration;
             nextSkillAvailableTime = Time.time + skillCooldown;
 
-            
-        
+
+            SpriteRenderer sr = slashEffectPrefab.GetComponentInChildren<SpriteRenderer>();
+
+            if (sr != null)
+            {
+                
+                sr.color = new Color(1f, 0.5f, 0f);
+            }
             Debug.Log("Activated Orange Buff Skill!");
         }
         else
