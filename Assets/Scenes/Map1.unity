@@ -1807,6 +1807,10 @@ MonoBehaviour:
   skillCooldown: 30
   damageMultiplier: 1.5
   cooldownTextFireslash: {fileID: 743849151}
+  dsskillDuration: 10
+  dskillCooldown: 30
+  dsdamageMultiplier: 3
+  dscooldownTextFireslash: {fileID: 1622837982}
 --- !u!4 &734414646
 Transform:
   m_ObjectHideFlags: 0
@@ -6507,7 +6511,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1907817401}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 734414645}
+        m_TargetAssemblyTypeName: PlayerCombat, Assembly-CSharp
+        m_MethodName: ActiveDoubleSlash
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1907817401
 MonoBehaviour:
   m_ObjectHideFlags: 0

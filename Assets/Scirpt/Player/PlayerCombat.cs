@@ -21,8 +21,17 @@ public class PlayerCombat : MonoBehaviour
     private float skillEndTime;
     private float nextSkillAvailableTime;
 
-   
+    [Header("doubleslash Skill Settings")]
+    public float dsskillDuration = 10f;
+    public float dskillCooldown = 30f;
+    public float dsdamageMultiplier = 3f;
+    public Text dscooldownTextFireslash;
+    private float dsskillEndTime;
+    private float dsnextSkillAvailableTime;
+
+
     public bool isSlashBuffActive => Time.time < skillEndTime;
+    
     void Awake()
     {
         mainCam = Camera.main;
@@ -90,6 +99,31 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
         }
+        //[Header("doubleslash Skill Settings")]
+        if (dscooldownTextFireslash != null)
+        {
+
+            if (Time.time < dsnextSkillAvailableTime)
+            {
+
+                if (!dscooldownTextFireslash.gameObject.activeSelf)
+                {
+                    dscooldownTextFireslash.gameObject.SetActive(true);
+                }
+
+
+                float remainingTime = dsnextSkillAvailableTime - Time.time;
+                dscooldownTextFireslash.text = Mathf.Ceil(remainingTime).ToString();
+            }
+            else
+            {
+               
+                if (dscooldownTextFireslash.gameObject.activeSelf)
+                {
+                    dscooldownTextFireslash.gameObject.SetActive(false);
+                }
+            }
+        }
     }
     public void ActivateSlashBuffSkill()
     {
@@ -120,7 +154,20 @@ public class PlayerCombat : MonoBehaviour
 
 
 
+    public void ActiveDoubleSlash()
+    {
+        if (Time.time >= dsnextSkillAvailableTime)
+        {
 
+            dsskillEndTime = Time.time + dsskillDuration;
+            dsnextSkillAvailableTime = Time.time + dskillCooldown;
+        }
+        else
+        {
+
+            Debug.Log($"Skill on cooldown. {Mathf.Ceil(dsnextSkillAvailableTime - Time.time)}s remaining.");
+        }
+    }
 
    
     void CreateSlash(Vector2 start, Vector2 end)
