@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69b0fbb76a0e614c8eb0cd6f0abc911, type: 3}
   m_Name: Bird_Data
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  enemyName: Bird
+  enemyName: Slime
   maxHealth: 1
   moveSpeed: 1
   attackDamage: 1

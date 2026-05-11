@@ -10,7 +10,7 @@ public class CoreBase : MonoBehaviour
     public int maxHealth ;
     public float cooldown = 10f;
     private float nextHealTime;
-
+    public Text cooldownText;
 
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
@@ -43,12 +43,39 @@ public class CoreBase : MonoBehaviour
 
         }
     }
+    void Update()
+    {
+        if (cooldownText != null)
+        {
+           
+            if (Time.time < nextHealTime)
+            {
+               
+                if (!cooldownText.gameObject.activeSelf)
+                {
+                    cooldownText.gameObject.SetActive(true);
+                }
+
+                
+                float remainingTime = nextHealTime - Time.time;
+                cooldownText.text = Mathf.Ceil(remainingTime).ToString();
+            }
+            else
+            {
+                
+                if (cooldownText.gameObject.activeSelf)
+                {
+                    cooldownText.gameObject.SetActive(false);
+                }
+            }
+        }
+    }
     public void healCoreBase()
     {
         if (Time.time >= nextHealTime)
         {
             nextHealTime = Time.time + cooldown;
-            health = 100;
+            health = 100+maxHealth;
             UpdateUI();
             if (audioSource != null && healSound != null)
             {
@@ -87,7 +114,7 @@ public class CoreBase : MonoBehaviour
 
     void UpdateUI()
     {
-        if (healthText != null) healthText.text = "HP: " + health;
+        if (healthText != null) healthText.text = ": " + health;
     }
 
     void GameOver()

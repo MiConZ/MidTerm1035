@@ -1,6 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
-
+using UnityEngine.UI;
 public class PlayerCombat : MonoBehaviour
 {
     public GameObject slashEffectPrefab; 
@@ -12,13 +12,28 @@ public class PlayerCombat : MonoBehaviour
     private float stunTimer = 0f;
     public bool isStunned => stunTimer > 0;
 
+   
+    [Header("Orange Buff Skill Settings")]
+    public float skillDuration = 10f;  
+    public float skillCooldown = 30f;  
+    public float damageMultiplier = 1.5f;
+    public Text cooldownTextFireslash;
+    private float skillEndTime;
+    private float nextSkillAvailableTime;
+
+   
+    public bool isSlashBuffActive => Time.time < skillEndTime;
     void Awake()
     {
         mainCam = Camera.main;
+       
+        
     }
+
 
     void Update()
     {
+
         if (stunTimer > 0)
         {
             stunTimer -= Time.deltaTime;
@@ -31,7 +46,7 @@ public class PlayerCombat : MonoBehaviour
             startPos = mainCam.ScreenToWorldPoint(Pointer.current.position.ReadValue());
         }
 
-      
+
         if (Pointer.current.press.wasReleasedThisFrame)
         {
             Vector2 endPos = mainCam.ScreenToWorldPoint(Pointer.current.position.ReadValue());
@@ -42,8 +57,60 @@ public class PlayerCombat : MonoBehaviour
                 CreateSlash(startPos, endPos);
             }
         }
+
+        //[Header("Orange Buff Skill Settings")]
+
+        if (cooldownTextFireslash != null)
+        {
+
+            if (Time.time < nextSkillAvailableTime)
+            {
+
+                if (!cooldownTextFireslash.gameObject.activeSelf)
+                {
+                    cooldownTextFireslash.gameObject.SetActive(true);
+                }
+
+
+                float remainingTime = nextSkillAvailableTime - Time.time;
+                 cooldownTextFireslash.text = Mathf.Ceil(remainingTime).ToString();
+            }
+            else
+            {
+
+                if (cooldownTextFireslash.gameObject.activeSelf)
+                {
+                    cooldownTextFireslash.gameObject.SetActive(false);
+                }
+            }
+        }
+    }
+    public void ActivateSlashBuffSkill()
+    {
+
+        if (Time.time >= nextSkillAvailableTime)
+        {
+          
+            skillEndTime = Time.time + skillDuration;
+            nextSkillAvailableTime = Time.time + skillCooldown;
+
+            
+        
+            Debug.Log("Activated Orange Buff Skill!");
+        }
+        else
+        {
+
+            Debug.Log($"Skill on cooldown. {Mathf.Ceil(nextSkillAvailableTime - Time.time)}s remaining.");
+        }
     }
 
+
+
+
+
+
+   
     void CreateSlash(Vector2 start, Vector2 end)
     {
      

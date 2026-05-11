@@ -80,10 +80,23 @@ public class GameDataManager : MonoBehaviour
         File.WriteAllText(savePath, json);
         Debug.Log("บันทึกข้อมูลทั้งหมดลงไฟล์เดียวเรียบร้อย!");
     }
-    
 
 
 
+    public bool IsSkillUnlocked(string targetSkillName)
+    {
+        
+        foreach (var skill in allSkills)
+        {
+            if (skill != null && skill.name == targetSkillName)
+            {
+                return skill.isUnlocked;
+            }
+        }
+
+        Debug.LogWarning("ค้นหาสกิลไม่พบ: " + targetSkillName);
+        return false; 
+    }
     public void LoadGame()
     {
         if (!File.Exists(savePath)) return;

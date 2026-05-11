@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e69b0fbb76a0e614c8eb0cd6f0abc911, type: 3}
+  m_Name: skeleton
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: skull
+  maxHealth: 2
+  moveSpeed: 1
+  attackDamage: 2
+  enemyPrefab: {fileID: 3427632959678783853, guid: 0ddb5b1f48d229742a3158de4e3e5bab, type: 3}
+  coinDrop: 20
+  expValue: 20
