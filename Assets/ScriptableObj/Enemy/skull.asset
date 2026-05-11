@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: skull
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
   enemyName: skull
-  maxHealth: 3
+  maxHealth: 5
   moveSpeed: 3
   attackDamage: 1
   enemyPrefab: {fileID: 5373414145543244546, guid: 066d65920abe64af18cd5b9a84c036a5, type: 3}

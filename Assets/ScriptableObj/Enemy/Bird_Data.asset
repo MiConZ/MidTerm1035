@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Bird_Data
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
   enemyName: Slime
-  maxHealth: 1
-  moveSpeed: 1
+  maxHealth: 2
+  moveSpeed: 2
   attackDamage: 1
   enemyPrefab: {fileID: 3427632959678783853, guid: b23b6fe1ad22cfa4298e2eac5627171f, type: 3}
   coinDrop: 10

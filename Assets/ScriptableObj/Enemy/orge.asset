@@ -15,7 +15,7 @@ MonoBehaviour:
   enemyName: skull
   maxHealth: 4
   moveSpeed: 1
-  attackDamage: 1
+  attackDamage: 4
   enemyPrefab: {fileID: 3427632959678783853, guid: 1922c53daa4ad93409a644257694ae5b, type: 3}
   coinDrop: 40
   expValue: 40
