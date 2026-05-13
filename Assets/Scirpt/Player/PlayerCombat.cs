@@ -11,8 +11,10 @@ public class PlayerCombat : MonoBehaviour
     public float stunDuration = 1.5f;
     private float stunTimer = 0f;
     public bool isStunned => stunTimer > 0;
+    [Header("Skill Settings")]
+    public int ultimateDamage = 100; 
+    public GameObject ultimateEffectPrefab; 
 
-   
     [Header("Orange Buff Skill Settings")]
     public float skillDuration = 10f;  
     public float skillCooldown = 30f;  
@@ -28,6 +30,15 @@ public class PlayerCombat : MonoBehaviour
     public Text dscooldownTextFireslash;
     private float dsskillEndTime;
     private float dsnextSkillAvailableTime;
+
+    [Header("Explosion Skill Settings")]
+    public float ExskillDuration = 10f;
+    public float ExskillCooldown = 60f;
+    public float ExdamageMultiplier = 3f;
+    public Text ExcooldownTextFireslash;
+    private float ExskillEndTime;
+    private float ExnextSkillAvailableTime;
+
 
 
     public bool isSlashBuffActive => Time.time < skillEndTime;
@@ -124,25 +135,78 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
         }
+        //[Header("Ex Skill Settings")]
+        if (ExcooldownTextFireslash != null)
+        {
+
+            if (Time.time < ExnextSkillAvailableTime)
+            {
+
+                if (!ExcooldownTextFireslash.gameObject.activeSelf)
+                {
+                    ExcooldownTextFireslash.gameObject.SetActive(true);
+                }
+
+
+                float remainingTime = ExnextSkillAvailableTime - Time.time;
+                ExcooldownTextFireslash.text = Mathf.Ceil(remainingTime).ToString();
+            }
+            else
+            {
+
+                if (ExcooldownTextFireslash.gameObject.activeSelf)
+                {
+                    ExcooldownTextFireslash.gameObject.SetActive(false);
+                }
+            }
+        }
+
+        //[Header("Ex Skill Settings")]
+
+        if (cooldownTextFireslash != null)
+        {
+
+            if (Time.time < nextSkillAvailableTime)
+            {
+
+                if (!cooldownTextFireslash.gameObject.activeSelf)
+                {
+                    cooldownTextFireslash.gameObject.SetActive(true);
+                }
+
+
+                float remainingTime = nextSkillAvailableTime - Time.time;
+                cooldownTextFireslash.text = Mathf.Ceil(remainingTime).ToString();
+            }
+            else
+            {
+                SpriteRenderer sr = slashEffectPrefab.GetComponentInChildren<SpriteRenderer>();
+
+                if (sr != null)
+                {
+
+                    sr.color = new Color(0f, 0f, 1f);
+                }
+                if (cooldownTextFireslash.gameObject.activeSelf)
+                {
+                    cooldownTextFireslash.gameObject.SetActive(false);
+                }
+            }
+        }
     }
-    public void ActivateSlashBuffSkill()
+    public void ActivateExSkill()
     {
 
-        if (Time.time >= nextSkillAvailableTime)
+        if (Time.time >= ExnextSkillAvailableTime)
         {
           
-            skillEndTime = Time.time + skillDuration;
-            nextSkillAvailableTime = Time.time + skillCooldown;
+            ExskillEndTime = Time.time + ExskillDuration;
+            ExnextSkillAvailableTime = Time.time + ExskillCooldown;
 
 
-            SpriteRenderer sr = slashEffectPrefab.GetComponentInChildren<SpriteRenderer>();
-
-            if (sr != null)
-            {
-                
-                sr.color = new Color(1f, 0.5f, 0f);
-            }
-            Debug.Log("Activated Orange Buff Skill!");
+          
+            ExecuteScreenClear();
+            Debug.Log("Activated Ex Skill!");
         }
         else
         {
@@ -151,7 +215,38 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+    public void ExecuteScreenClear()
+    {
+       
+        GameObject[] allEnemies = GameObject.FindGameObjectsWithTag("Enemy");
 
+        
+        if (allEnemies.Length == 0)
+        {
+            Debug.Log("ไม่มีศัตรูบนจอให้ทำดาเมจ!");
+            return;
+        }
+
+       
+        if (ultimateEffectPrefab != null)
+        {
+            Instantiate(ultimateEffectPrefab, Vector3.zero, Quaternion.identity);
+        }
+
+        foreach (GameObject enemyObj in allEnemies)
+        {
+           
+            EnemyAI enemyScript = enemyObj.GetComponent<EnemyAI>();
+
+            if (enemyScript != null)
+            {
+                
+                enemyScript.TakeDamage(ultimateDamage);
+            }
+        }
+
+        Debug.Log($"ทำดาเมจ {ultimateDamage} ใส่ศัตรูจำนวน {allEnemies.Length} ตัวเรียบร้อย!");
+    }
 
 
     public void ActiveDoubleSlash()
