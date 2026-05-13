@@ -79,7 +79,7 @@ public class CoreBase : MonoBehaviour
             UpdateUI();
             if (audioSource != null && healSound != null)
             {
-                audioSource.PlayOneShot(healSound);
+                audioSource.PlayOneShot(healSound,0.5f);
             }
         }
     }

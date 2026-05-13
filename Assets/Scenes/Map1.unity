@@ -1623,7 +1623,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 734414645}
         m_TargetAssemblyTypeName: PlayerCombat, Assembly-CSharp
-        m_MethodName: ActivateSlashBuffSkill
+        m_MethodName: ActiveFireSlash
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1717,6 +1717,9 @@ MonoBehaviour:
   ExskillCooldown: 60
   ExdamageMultiplier: 3
   ExcooldownTextFireslash: {fileID: 1482818103}
+  audioSource: {fileID: 628497852}
+  SoundSkill: {fileID: 8300000, guid: 2ff6577e621c6934086d3774c24afee8, type: 3}
+  SoundExSkill: {fileID: 8300000, guid: ced03cf6458481b4080f22e2a97671ff, type: 3}
 --- !u!4 &734414646
 Transform:
   m_ObjectHideFlags: 0
@@ -1766,7 +1769,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 313.6, y: -150.39998}
+  m_AnchoredPosition: {x: 312.2, y: -150.39998}
   m_SizeDelta: {x: 97.679, y: 13.7798}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &743849151
@@ -6326,8 +6329,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PauseMenu
   pauseMenuUI: {fileID: 2070838532}
   stopemenu: {fileID: 145148201}
-  audioSource: {fileID: 0}
-  clicksound: {fileID: 0}
+  audioSource: {fileID: 628497852}
+  clicksound: {fileID: 8300000, guid: 8187af7d7a27d1e43b965680d9f77956, type: 3}
 --- !u!4 &1889717360
 Transform:
   m_ObjectHideFlags: 0

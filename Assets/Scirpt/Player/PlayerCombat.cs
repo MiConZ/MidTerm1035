@@ -39,7 +39,10 @@ public class PlayerCombat : MonoBehaviour
     private float ExskillEndTime;
     private float ExnextSkillAvailableTime;
 
-
+    [Header("Sound")]
+    public AudioSource audioSource;
+    public AudioClip SoundSkill;
+    public AudioClip SoundExSkill;
 
     public bool isSlashBuffActive => Time.time < skillEndTime;
     
@@ -196,7 +199,10 @@ public class PlayerCombat : MonoBehaviour
     }
     public void ActivateExSkill()
     {
-
+        if (audioSource != null && SoundExSkill != null)
+        {
+            audioSource.PlayOneShot(SoundExSkill, 0.5f);
+        }
         if (Time.time >= ExnextSkillAvailableTime)
         {
           
@@ -248,9 +254,30 @@ public class PlayerCombat : MonoBehaviour
         Debug.Log($"ทำดาเมจ {ultimateDamage} ใส่ศัตรูจำนวน {allEnemies.Length} ตัวเรียบร้อย!");
     }
 
+    public void ActiveFireSlash()
+    {
+        if (audioSource != null && SoundSkill != null)
+        {
+            audioSource.PlayOneShot(SoundSkill, 0.5f);
+        }
+        if (Time.time >= nextSkillAvailableTime)
+        {
 
+            skillEndTime = Time.time + skillDuration;
+            nextSkillAvailableTime = Time.time + skillCooldown;
+        }
+        else
+        {
+
+            Debug.Log($"Skill on cooldown. {Mathf.Ceil(nextSkillAvailableTime - Time.time)}s remaining.");
+        }
+    }
     public void ActiveDoubleSlash()
     {
+        if (audioSource != null && SoundSkill != null)
+        {
+            audioSource.PlayOneShot(SoundSkill, 0.5f);
+        }
         if (Time.time >= dsnextSkillAvailableTime)
         {
 
