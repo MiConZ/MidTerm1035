@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   data: {fileID: 11400000, guid: cf09150c1e04bc84981559a232cb370a, type: 2}
+  smokeEffectPrefab: {fileID: 3337609163461253743, guid: 0a25ae735a5518d4eb3961fa1462b643, type: 3}
 --- !u!61 &787893415949890542
 BoxCollider2D:
   m_ObjectHideFlags: 0

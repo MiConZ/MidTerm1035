@@ -60,7 +60,7 @@ public class EnemyAI : MonoBehaviour
             GameObject smoke = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
 
             
-            Destroy(smoke, 0.5f);
+            Destroy(smoke, 0.2f);
         }
     }
     void OnTriggerEnter2D(Collider2D other)
