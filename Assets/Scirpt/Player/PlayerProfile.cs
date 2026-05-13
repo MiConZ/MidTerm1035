@@ -14,7 +14,10 @@ public class PlayerProfile : MonoBehaviour
     public float xpMultiplier = 1.2f; 
     public int bonusDamage = 0; 
     public int bonusHealth = 0;
-    
+    [Header("Audio Settings")]
+    public AudioSource audioSource;
+    public AudioClip levelup;
+
     void Awake()
     {
         if (Instance == null) Instance = this;
@@ -42,6 +45,10 @@ public class PlayerProfile : MonoBehaviour
     void LevelUp()
     {
         currentXP -= GetRequiredXP();
+        if (audioSource != null && levelup != null)
+        {
+            audioSource.PlayOneShot(levelup);
+        }
         playerLevel++;
         Debug.Log($"Level Up! ตอนนี้เลเวล: {playerLevel}");
 

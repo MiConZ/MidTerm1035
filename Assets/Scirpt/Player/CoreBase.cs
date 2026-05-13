@@ -100,7 +100,7 @@ public class CoreBase : MonoBehaviour
         if (audioSource != null && hitSound != null)
         {
           
-            audioSource.PlayOneShot(hitSound,0.02f);
+            audioSource.PlayOneShot(hitSound,0.05f);
         }
         if (health <= 0)
         {

@@ -1,15 +1,24 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUI;
     public static bool isPaused = false;
     public GameObject stopemenu;
+    [Header("Audio Settings")]
+    public AudioSource audioSource;
+    public AudioClip clicksound;
 
 
+    public void Click()
 
-
-
+    {
+        if (audioSource != null && clicksound != null)
+        {
+            audioSource.PlayOneShot(clicksound,0.5f);
+        }
+    }
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
