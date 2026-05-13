@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d4027f30bff654e6ca25faa4578698c9
+guid: cfc27850fc78441459838e7f7f86d79c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,11 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull_poison/skull/Shape
-    1824 copy 4.png
-  uploadId: 874200

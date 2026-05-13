@@ -99,7 +99,8 @@ public class CoreBase : MonoBehaviour
         Invoke("ResetColor", 0.15f);     
         if (audioSource != null && hitSound != null)
         {
-            audioSource.PlayOneShot(hitSound);
+          
+            audioSource.PlayOneShot(hitSound,0.02f);
         }
         if (health <= 0)
         {

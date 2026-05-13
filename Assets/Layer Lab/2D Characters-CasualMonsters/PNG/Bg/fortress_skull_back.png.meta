@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 36e0246c7fc1b445aa69f2918c021062
+guid: 014c38d3da43d564a9be9a963aeffd10
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Bg/fortress_skull_back.png
-  uploadId: 874200

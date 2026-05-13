@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 305873852c4034fbf9427ec677eaa2f0
+guid: a0f2b3c944bfe914ab470e27697560fa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Slime/slime_green/slime_king/shield.png
-  uploadId: 874200

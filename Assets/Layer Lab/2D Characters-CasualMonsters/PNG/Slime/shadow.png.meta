@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a5abafae18fb45f0b274367f52cdc97
+guid: f2c644d87b0a06248a1717e9c3ef9660
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Slime/shadow.png
-  uploadId: 874200

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc297876b65c849a49dc84518f644dcd
+guid: e01b22f83a6803747ae63426d5e3d3dc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Bg/bg_road_color.png
-  uploadId: 874200

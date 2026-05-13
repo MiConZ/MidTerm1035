@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 1ebaa8ed9edda4a21993e7e2170624ed
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/posion_skull_warrior.psb
-  uploadId: 874200
+guid: 58fb20ffff95da446bd073592ebb3423
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

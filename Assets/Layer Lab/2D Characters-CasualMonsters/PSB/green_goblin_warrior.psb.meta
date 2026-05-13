@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: dc3c759e9c3254889b58c5daa6861135
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/green_goblin_warrior.psb
-  uploadId: 874200
+guid: c36191396e9980c4f90f1698bd692717
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

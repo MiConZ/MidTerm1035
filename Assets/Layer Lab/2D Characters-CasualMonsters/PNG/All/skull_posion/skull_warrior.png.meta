@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b35801048d364bd089645e573f65a17
+guid: d07cb62a2daff8e48a1658035da3929a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/All/skull_posion/skull_warrior.png
-  uploadId: 874200

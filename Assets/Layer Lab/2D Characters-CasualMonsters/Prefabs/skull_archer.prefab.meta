@@ -1,14 +1,7 @@
 fileFormatVersion: 2
-guid: 214db3b45e9e64ddf9970515c298f1ad
+guid: 5c206102ac475ac499a6c2fd6da7841b
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/Prefabs/skull_archer.prefab
-  uploadId: 874200

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fcb0fb6bf747b458989e439bfc7a92b3
+guid: a371864c0a795b5419dc515a615573e7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Goblin/goblin_green/goblin/leg.png
-  uploadId: 874200

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e596a34c5a2d47a78817a4fa1b62565
+guid: ded5dc130a3b61447a9663104c5b6b18
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull/skull_warrior/body.png
-  uploadId: 874200

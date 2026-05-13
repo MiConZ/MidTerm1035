@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecc0763552933475181f7f5a232943c0
+guid: 070e64832bb6d004c8263dc69a7f61d1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Goblin/goblin/goblin_warrior/arm2.png
-  uploadId: 874200

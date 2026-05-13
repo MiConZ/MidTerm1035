@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 2f9ec75a18efc4c03ad93b91ab0530ca
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/posion_skull_archer.psb
-  uploadId: 874200
+guid: 926fc6cd36fa6724295a3daf98a79196
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

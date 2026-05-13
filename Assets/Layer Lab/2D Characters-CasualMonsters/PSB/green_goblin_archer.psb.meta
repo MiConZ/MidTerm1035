@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 9a414f13eb2f843e488ce26ae1c08a53
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/green_goblin_archer.psb
-  uploadId: 874200
+guid: afe9d7f188437934880d324e1413ab0a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

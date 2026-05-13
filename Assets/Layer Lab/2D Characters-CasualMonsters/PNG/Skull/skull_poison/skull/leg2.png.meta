@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1cd1bb75c3bff429987719d09d87b671
+guid: a53c665d3a1531e4a855e790242aaec5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull_poison/skull/leg2.png
-  uploadId: 874200

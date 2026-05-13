@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 18ec71d5c2f3f4244beb33c35f0e35c7
+guid: cecf7ce9434652048b545c8ef9d8b44b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull/skull_archer/arm2.png
-  uploadId: 874200

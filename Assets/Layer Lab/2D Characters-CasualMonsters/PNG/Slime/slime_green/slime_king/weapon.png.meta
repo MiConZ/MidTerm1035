@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 061c1a6f180ac40509a946a210dfb12e
+guid: 3d6c05807cf8f8e44ae406f500c658b3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Slime/slime_green/slime_king/weapon.png
-  uploadId: 874200

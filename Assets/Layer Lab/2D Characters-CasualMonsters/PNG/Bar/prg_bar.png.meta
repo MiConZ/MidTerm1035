@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6d3378d48d3944e79956443d28dc7135
+guid: a422b0488f5939644a2478d21decedeb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Bar/prg_bar.png
-  uploadId: 874200

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5de85c11aa3214203aea238b485e4b22
+guid: cb0accab1671c59408f18fa21570ed2e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Bg/bg_weed.png
-  uploadId: 874200

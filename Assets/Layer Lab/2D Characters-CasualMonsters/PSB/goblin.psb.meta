@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: e0655cd6e638fe84c912908856fa569a
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/goblin.psb
-  uploadId: 874200
+guid: 3ee90bc690b70e148a990d64a812c685
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

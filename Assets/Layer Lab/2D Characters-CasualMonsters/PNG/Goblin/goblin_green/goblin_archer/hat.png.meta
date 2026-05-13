@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3755530a1748245c58174cf36344d94e
+guid: 94d3ccfb20c509947b3d836bb6be16f3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Goblin/goblin_green/goblin_archer/hat.png
-  uploadId: 874200

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b8d92afcbde74f18afcbf6f3eab637a
+guid: b80f228101353e241b3d9294458d83d2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/All/orange_slime/slime.png
-  uploadId: 874200

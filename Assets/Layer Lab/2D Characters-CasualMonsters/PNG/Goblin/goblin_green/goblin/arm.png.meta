@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 407eea88d946d4a51b3454a22f7739ec
+guid: 055a37a53652f4d47a6d44b665c68696
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Goblin/goblin_green/goblin/arm.png
-  uploadId: 874200

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d3550a30447d5479eac5db24c1762818
+guid: ef6e5bd109c4728409f81731769a4e74
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Slime/slime_green/slime_stone/body.png
-  uploadId: 874200

@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: a363163433dd24219bcc91820d4547ec
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/posion_skull.psb
-  uploadId: 874200
+guid: c6e4dc7484e2d6e44a72d9a6532bf987
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

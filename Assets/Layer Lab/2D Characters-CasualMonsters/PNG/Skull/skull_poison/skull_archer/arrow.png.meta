@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 064539cfd84fa4fb7991761d61f32319
+guid: de3dca7f8b8aff74c8d3e8fef58b9623
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull_poison/skull_archer/arrow.png
-  uploadId: 874200

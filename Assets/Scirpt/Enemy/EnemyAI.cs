@@ -7,7 +7,9 @@ public class EnemyAI : MonoBehaviour
     private float currentHealth; 
     private Transform target;
     private SpriteRenderer spriteRenderer;
-
+    [Header("Audio Settings")]
+    public AudioSource audioSource;
+    public AudioClip enemyd;
     private int scaledDamage;
 
     [Header("Effects")]
@@ -58,8 +60,11 @@ public class EnemyAI : MonoBehaviour
         {
            
             GameObject smoke = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
+            if (audioSource != null && enemyd != null)
+            {
+                audioSource.PlayOneShot(enemyd);
+            }
 
-            
             Destroy(smoke, 0.2f);
         }
     }

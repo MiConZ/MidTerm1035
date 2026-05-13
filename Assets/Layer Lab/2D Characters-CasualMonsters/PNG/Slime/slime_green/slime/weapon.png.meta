@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 75a72285d6f6b4ea7a5ab1728509bf81
+guid: 80bb300bf77da8940b649350a7738739
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Slime/slime_green/slime/weapon.png
-  uploadId: 874200

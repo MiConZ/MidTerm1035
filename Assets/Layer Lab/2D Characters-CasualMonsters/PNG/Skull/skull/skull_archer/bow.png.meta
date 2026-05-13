@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 802cad448bed64617a9346cea6040581
+guid: 98473eee6e5ba7b418332662b7fbe9f9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull/skull_archer/bow.png
-  uploadId: 874200

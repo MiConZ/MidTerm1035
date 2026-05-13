@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: d55ae16abccf15d45acdbd4ae4431ecb
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/stone_slime.psb
-  uploadId: 874200
+guid: afc3671b4adb34f479c56e06059ef8d1
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

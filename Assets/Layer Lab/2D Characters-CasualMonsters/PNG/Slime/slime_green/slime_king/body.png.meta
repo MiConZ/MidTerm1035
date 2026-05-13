@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 900a5cdb6ff8a473a8e0076d6aec2dd0
+guid: 5fd2d37a6d5bbb84896384ae07f86505
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Slime/slime_green/slime_king/body.png
-  uploadId: 874200

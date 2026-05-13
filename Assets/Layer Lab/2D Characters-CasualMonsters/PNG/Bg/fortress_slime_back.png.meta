@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3687d248885e3493f986053a1c76c209
+guid: 134891e3e643cda41a3e8216f95241cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Bg/fortress_slime_back.png
-  uploadId: 874200

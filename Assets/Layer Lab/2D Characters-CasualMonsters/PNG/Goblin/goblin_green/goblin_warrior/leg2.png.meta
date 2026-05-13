@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cf654609240e445c69996cfd8076c7d0
+guid: 7e39393d51677e7469491fdc3af2ea3f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Goblin/goblin_green/goblin_warrior/leg2.png
-  uploadId: 874200

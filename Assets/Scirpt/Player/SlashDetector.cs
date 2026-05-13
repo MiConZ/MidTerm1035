@@ -18,10 +18,7 @@ public class SlashDetector : MonoBehaviour
             EnemyAI enemy = other.GetComponent<EnemyAI>();
             if (enemy != null)
             {
-                if (audioSource != null && SlashSound != null)
-                {
-                    audioSource.PlayOneShot(SlashSound);
-                }
+               
              
                 int currentDamage = ScoreManager.Instance.currentDamage;
                 enemy.TakeDamage(currentDamage);
@@ -32,7 +29,10 @@ public class SlashDetector : MonoBehaviour
     }
     private void OnDestroy()
     {
-       
+        if (audioSource != null && SlashSound != null)
+        {
+            audioSource.PlayOneShot(SlashSound);
+        }
         if (!hasHit && playerCombat != null)
         {
             playerCombat.ApplyStun();

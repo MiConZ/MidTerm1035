@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c3856eeab7d044ce78c686c23bd7ca98
+guid: e4bd6dad9a1c9504c8ee0755edf0d04a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull_poison/skull_archer/leg1.png
-  uploadId: 874200

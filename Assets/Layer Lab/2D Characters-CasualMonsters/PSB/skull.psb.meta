@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 72f04662fb8530b45bf681b1554462ea
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/skull.psb
-  uploadId: 874200
+guid: b56690fa6fb879e4fadeab74277a58d7
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

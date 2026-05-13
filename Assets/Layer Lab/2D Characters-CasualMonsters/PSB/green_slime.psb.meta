@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 152d572cd288ff040b9e77bed8e21fe6
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/green_slime.psb
-  uploadId: 874200
+guid: bed190464efcffe4b89fee61781890ac
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

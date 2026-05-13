@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 579a6e56a5e832a4b8555f1917d11429
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/goblin_warrior.psb
-  uploadId: 874200
+guid: 6b6c76ef22575ab4b867748d5e7fa152
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

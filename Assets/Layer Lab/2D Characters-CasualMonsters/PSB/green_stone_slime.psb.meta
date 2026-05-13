@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 00da5abbef1a64835b048e817470fd29
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/green_stone_slime.psb
-  uploadId: 874200
+guid: 7690141310d7264468aa4bc1dddb323c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

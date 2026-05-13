@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dcb16779d01ac49e897010057a3b33ad
+guid: 87e93fa4e25aaf14a84faff5859a6f04
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull/skull/arm.png
-  uploadId: 874200

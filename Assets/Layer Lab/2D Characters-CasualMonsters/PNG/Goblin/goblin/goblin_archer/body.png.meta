@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cfefbfad1d90447e7b5e42a50bf4ee9a
+guid: d0410b52e63e4d54db4c0c56116e9df3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Goblin/goblin/goblin_archer/body.png
-  uploadId: 874200

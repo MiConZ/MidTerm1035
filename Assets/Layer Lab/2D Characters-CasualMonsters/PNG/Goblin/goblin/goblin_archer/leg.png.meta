@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 69e02316d6fca4ed482859ea3e755913
+guid: 642ee8df97f09244ab4ef3ae7e1d6373
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Goblin/goblin/goblin_archer/leg.png
-  uploadId: 874200

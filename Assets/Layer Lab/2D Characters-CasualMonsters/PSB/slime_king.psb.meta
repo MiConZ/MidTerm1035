@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: e6d75c69a41b68b408d1dc6eb55344e6
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSB/slime_king.psb
-  uploadId: 874200
+guid: 90999756a6f32e94688968bd93a05ae4
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}

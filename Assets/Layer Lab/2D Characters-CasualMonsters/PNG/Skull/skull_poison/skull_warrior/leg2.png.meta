@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a140a335ee6d413a949ccb5b7a0a540
+guid: 4511be5800f79794c8774cad1ea2871e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull_poison/skull_warrior/leg2.png
-  uploadId: 874200

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5efba8e41951d43efb5f00b60990f9e3
+guid: ca5d3e6206a115c4ea2538b27288650c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSD/monster_slime.psd
-  uploadId: 874200

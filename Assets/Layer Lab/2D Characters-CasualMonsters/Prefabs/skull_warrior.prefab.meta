@@ -1,14 +1,7 @@
 fileFormatVersion: 2
-guid: 85d3331f3716f4e65bb90cd2b695ef06
+guid: d3ef9e817003ed4439f27b1703dc4e57
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/Prefabs/skull_warrior.prefab
-  uploadId: 874200

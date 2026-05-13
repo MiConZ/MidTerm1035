@@ -1,14 +1,7 @@
 fileFormatVersion: 2
-guid: baac1c9104301431d8c897856ede7bd9
+guid: 2b6596cfa9202e34cbf6d7cf5ca9b74c
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/Prefabs/goblin.prefab
-  uploadId: 874200

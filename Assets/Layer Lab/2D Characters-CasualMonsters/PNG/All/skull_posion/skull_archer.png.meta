@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 22f71098746544cc18351f4299789642
+guid: bb8eb9f5739e7834ca790cf3a0b9b583
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/All/skull_posion/skull_archer.png
-  uploadId: 874200

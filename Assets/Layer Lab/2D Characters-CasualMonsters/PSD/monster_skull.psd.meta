@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 24edbad9828bb4c5495dc6da6d22e8f1
+guid: b402332a043a0954e83997b007c6e714
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PSD/monster_skull.psd
-  uploadId: 874200

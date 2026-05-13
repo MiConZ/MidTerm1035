@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c4752e8a5ab443dfbea4bd2d294066e
+guid: 7ac6ed5fd7594664189212d8a0f67964
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Goblin/goblin/goblin_archer/bow.png
-  uploadId: 874200

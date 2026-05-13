@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c7f630950f9c4a52bc7c0218f181e8c
+guid: c7eeb7eb76c075a4bbd9c516788f481f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,10 +121,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 365606
-  packageName: 2D Characters - Casual Monsters
-  packageVersion: 1.0.0
-  assetPath: Assets/Layer Lab/2D Characters-CasualMonsters/PNG/Skull/skull/skull/leg.png
-  uploadId: 874200
