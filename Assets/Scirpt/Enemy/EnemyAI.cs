@@ -9,6 +9,9 @@ public class EnemyAI : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     private int scaledDamage;
+
+    [Header("Effects")]
+    public GameObject smokeEffectPrefab;
     void Start()
     {
         if (data == null)
@@ -48,6 +51,18 @@ public class EnemyAI : MonoBehaviour
 
        
     }
+    void SpawnSmokeEffect()
+    {
+       
+        if (smokeEffectPrefab != null)
+        {
+           
+            GameObject smoke = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
+
+            
+            Destroy(smoke, 0.5f);
+        }
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("CoreBase") || other.name == "CoreBase")
@@ -57,7 +72,7 @@ public class EnemyAI : MonoBehaviour
             {
                 baseScript.TakeDamage(scaledDamage); 
             }
-
+            SpawnSmokeEffect();
             Destroy(gameObject);
         }
     }
@@ -79,7 +94,7 @@ public class EnemyAI : MonoBehaviour
             {
                 ScoreManager.Instance.AddScore(data.expValue);
             }
-
+            SpawnSmokeEffect();
             Destroy(gameObject); 
         }
     }
