@@ -1,6 +1,5 @@
 ﻿
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewSkill", menuName = "ScriptableObjects/SkillNode")]
