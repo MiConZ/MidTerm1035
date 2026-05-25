@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: skeleton
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
   enemyName: skull
-  maxHealth: 10
+  maxHealth: 100
   moveSpeed: 1
   attackDamage: 10
   enemyPrefab: {fileID: 3427632959678783853, guid: 0ddb5b1f48d229742a3158de4e3e5bab, type: 3}
-  coinDrop: 20
-  expValue: 20
+  coinDrop: 100
+  expValue: 100

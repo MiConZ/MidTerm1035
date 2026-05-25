@@ -7,6 +7,7 @@ public class EnemyAI : MonoBehaviour
     private float currentHealth; 
     private Transform target;
     private SpriteRenderer spriteRenderer;
+
     [Header("Audio Settings")]
     public AudioSource audioSource;
     public AudioClip enemyd;
@@ -14,6 +15,8 @@ public class EnemyAI : MonoBehaviour
 
     [Header("Effects")]
     public GameObject smokeEffectPrefab;
+
+    private Color defaultColor;
     void Start()
     {
         if (data == null)
@@ -37,6 +40,7 @@ public class EnemyAI : MonoBehaviour
         {
             spriteRenderer.color = Color.Lerp(Color.white, Color.red, 0.2f);
         }
+        defaultColor = spriteRenderer.color;
     }
 
     void Update()
@@ -94,7 +98,7 @@ public class EnemyAI : MonoBehaviour
                 PlayerProfile.Instance.AddRewards(data.coinDrop, data.expValue); 
             }
 
-            // หากยังมี ScoreManager อยู่ให้เก็บไว้ได้ หรือจะย้ายไปใช้ระบบอื่นก็ได้ครับ
+            
             if (ScoreManager.Instance != null)
             {
                 ScoreManager.Instance.AddScore(data.expValue);
@@ -116,5 +120,12 @@ public class EnemyAI : MonoBehaviour
             spriteRenderer.flipX = true; 
         }
     }
-    
+    void ResetColor()
+    {
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = defaultColor; 
+        }
+    }
+
 }

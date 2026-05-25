@@ -761,8 +761,8 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 3427632959678783853, guid: b23b6fe1ad22cfa4298e2eac5627171f, type: 3}
   - {fileID: 3427632959678783853, guid: 6dc62f40ca7b44a43a4fbbe3e3ba5304, type: 3}
-  - {fileID: 3427632959678783853, guid: 0ddb5b1f48d229742a3158de4e3e5bab, type: 3}
   - {fileID: 3427632959678783853, guid: 1922c53daa4ad93409a644257694ae5b, type: 3}
+  bossPrefab: {fileID: 3427632959678783853, guid: 0ddb5b1f48d229742a3158de4e3e5bab, type: 3}
   spawnPoints:
   - {fileID: 2065980878371417290, guid: ebbd59d022b2a8f4c97062caa82c6435, type: 3}
   - {fileID: 7838637933439671396, guid: c4ce661e7d05c5b4c8137b4d51628f3d, type: 3}

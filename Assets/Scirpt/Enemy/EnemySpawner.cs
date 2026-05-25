@@ -3,8 +3,10 @@ using System.Collections;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject[] enemyPrefabs; 
+    public GameObject[] enemyPrefabs;
+    public GameObject bossPrefab;
     public Transform[] spawnPoints;
+
     public float timeBetweenWaves = 5f;
     private int waveNumber = 1;
     public float minimumTimeBetweenWaves = 1.5f; 
@@ -15,6 +17,7 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
+        currentTimeBetweenWaves = timeBetweenWaves;
         StartCoroutine(SpawnWave());
     }
 
@@ -22,7 +25,15 @@ public class EnemySpawner : MonoBehaviour
     {
         while (true)
         {
-          
+            bool isBossWave = (waveNumber % 5 == 0);
+
+            if (isBossWave)
+            {
+                SpawnBoss();
+                
+                yield return new WaitForSeconds(1.5f);
+            }
+
             int enemiesToSpawn = waveNumber * 2;
 
             for (int i = 0; i < enemiesToSpawn; i++)
@@ -48,5 +59,18 @@ public class EnemySpawner : MonoBehaviour
         int randEnemy = Random.Range(0, enemyPrefabs.Length);
         int randPoint = Random.Range(0, spawnPoints.Length);
         Instantiate(enemyPrefabs[randEnemy], spawnPoints[randPoint].position, Quaternion.identity);
+    }
+    void SpawnBoss()
+    {
+        if (bossPrefab != null)
+        {
+            int randPoint = Random.Range(0, spawnPoints.Length);
+            Instantiate(bossPrefab, spawnPoints[randPoint].position, Quaternion.identity);
+            Debug.Log("⚠️ Boss Spawned at Wave: " + waveNumber);
+        }
+        else
+        {
+            Debug.LogWarning("ยังไม่ได้กำหนด Boss Prefab ใน Inspector!");
+        }
     }
 }
