@@ -643,7 +643,7 @@ MonoBehaviour:
   bonusHealth: 0
   audioSource: {fileID: 0}
   levelup: {fileID: 0}
-  enemyUpgradePoints: 0
+  enemyUpgradePoints: 2
 --- !u!4 &582386291
 Transform:
   m_ObjectHideFlags: 0
